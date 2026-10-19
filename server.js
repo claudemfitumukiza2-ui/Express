@@ -5,15 +5,7 @@ const app = express();
 const PORT = 3000;
 
 app.get("/", (req, res) => {
-  res.send("Welcome to my Express project!");
-});
-
-app.get("/about", (req, res) => {
-  res.send("This is my About page.");
-});
-
-app.get("/contact", (req, res) => {
-  res.send("Contact us here.");
+  res.send("Hello! My Express Server is working.");
 });
 
 app.listen(PORT, () => {
